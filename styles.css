@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: gray;
+    color: white;
+}
+
+.title {
+    background: linear-gradient(to top, gray, darkgray, gray);
+}
+
+.order {
+    width:50%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+
+.header h4 {
+    color: rgb(34, 218, 28)
+}
+
+.links a {
+    color: rgb(34,218,28);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.news { 
+    background-image: url("./assets/news.jpg"); 
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 480px;
+    font-size: 1.4em;
+}
+
+.innews {
+    width: 500px;
+    background-color: rgba(50, 50, 180, .5);
+    height: 480px;
+    width:50%;
+    margin: 0 auto;
+}
+
+.trade {
+    background-image: url("./assets/fearless.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+.trade form input {
+    background-color:darkgray;
+    color: black;
+}
+
+.trade form select {
+    background-color:darkgray;
+}
+
+.position {
+    background-image: url("./assets/bull.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 480px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.position_table {
+    width: 80%;
+}
+
+.position_table th {
+    background-image: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.8));
+    background-blend-mode: darken;
+}
+.position_table td {
+    background-image: linear-gradient(to top, rgba(34, 218, 28, .5), rgba(31, 204, 54, .7));
+}
+
+.position_table, .position tr, .position td, .position th {
+    text-align: right;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.update_chart {
+    color: black;
+}
+
+.chart {
+    background-color: rgba(0,0,0,.6);
+}

@@ -1,0 +1,20 @@
+<div class="position">
+  <h3>Portfolio Overview:</h3>
+  <p>Initial Cash balance: $25,000</p>
+  <p>Gain/Loss: ${{ stockTotal }}</p>
+  <p>Current Cash Available to Trade or Withdraw: ${{ remainingCash }} </p>
+  <p>Return: {{ return }}%</p>
+
+  <table class="position_table">
+    <tr>
+      <th>Symbol</th>
+      <th>Quantity</th>
+      <th>Total</th>
+    </tr>
+    <tr *ngFor = "let x of positions">
+      <td>{{ x.symbol }}</td>
+      <td>{{ x.quantity }} shares</td>
+      <td>{{ x.total }}</td>
+        </tr>
+  </table>
+</div>

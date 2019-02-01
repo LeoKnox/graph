@@ -1,14 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-</div>
-<div>
-  <svg height="200" width="500">
-    <polyline [attr.points]="newarr" style="fill:none;stroke:black;stroke-width:3" />
-  </svg>
-</div>
-<button (click)= "addData()">update</button>
 
-<router-outlet></router-outlet>
+
+<div class="header" style="text-align:center">
+  <div class="title">
+  <h1>{{ title }}</h1>
+  <h4><i>Compete with thousands of traders and trade your way to the top!</i></h4>
+  </div>
+  <div class="links">
+    <a [routerLink] = "['/position']">Account Summary</a>
+  | <a [routerLink] = "['/trade']">Trade</a>
+|   <a [routerLink] = "['/news']">News and Research</a>
+  </div>
+
+  <router-outlet></router-outlet>
